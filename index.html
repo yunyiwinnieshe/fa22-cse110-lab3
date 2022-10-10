@@ -11,22 +11,6 @@
     </header>
     <main>
         <img src="download.jpeg" alt="Warren Bear">
-        <audio controls>
-            <source src="audio.mp3" type="audio/mp3">
-            Your brower does not support this format
-        </audio>
-
-        
-       
-        <video controls>
-            <source src="video.mp4" type="video/mp4">
-            Your brower does not support this format
-        </video>
-
-        <nav>
-            <a href="./audio.mp3">Audio</a> 
-        </nav>
-
         <section>
             <h1><em>Meeting Time</em></h1>
             <p>The <span>meeting time</span> of our group is at 5:30 pm in Dirty Bird</p>
@@ -60,6 +44,25 @@
             </ol>
 
             <p>Out TA mentioned that we all need to be <strong>responsible and be good at communicating</strong></p>
+
+            <ul>
+                <li><b>Watched a Video</b></li>
+            </ul>
+            <video width="300" height="200" controls>
+                <source src="video.mp4" type="video/mp4">
+                Your brower does not support this format
+            </video>
+
+            <ul>
+                <li><b>Listened to audio</b></li>
+            </ul>
+            <nav>
+                <a href="./audio.mp3">Audio</a> 
+            </nav>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your brower does not support this format
+            </audio>
             
         </section>
 
@@ -69,35 +72,39 @@
                     <label>First Name:</label>
                     <input type="text">
                     <br>
-                    <label>This is a button</label>
+                    <label>Do you like our team?</label>
                     <input type="checkbox">
                     <br>
-                    <label>This is a radio</label>
+                    <label>Is Team 12 the best team?</label>
                     <input type="radio">
                     <br>
-                    <label>This is a date selector</label>
+                    <label>What is the date today?</label>
                     <input type="date">
                 </fieldset>
             </form>
             <form>
                 <textarea>
-                    This is to test the use of textarea
+                    Any comment about the meeting
                 </textarea>
                 <br>
-                <label>Testing Datalist:</label>
-                <input list="browser">
-                <datalist id="browser">
-                    <option value="One">
-                    <option value="Two">
-                </datalist>
-                <input type="submit">
-                <br>
-                <label>Choose a Number</label>
+                
+                <label>Rate out team</label>
                 <select>
                     <option value="one">One</option>
                     <option value="two">Two</option>
                     <option value="three">Three</option>
+                    <option value="four">Four</option>
+                    <option value="five">Five</option>
                 </select>
+                <br>
+                <label>Are you finished with the form:</label>
+                <input list="browser">
+                <datalist id="browser">
+                    <option value="Yes">
+                    <option value="No">
+                </datalist>
+                <input type="submit">
+
             </form>
             <br>
             <button type="button">The end of the form, Click Here</button>
