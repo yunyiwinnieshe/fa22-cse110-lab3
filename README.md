@@ -1,2 +1,2 @@
-# Lab 2 - Starter
-Please go to this page to see my website https://yunyiwinnieshe.github.io/CSE110Lab2/
+# Lab 3 
+Please go to this page to see my website https://yunyiwinnieshe.github.io/fa22-cse110-lab3/
