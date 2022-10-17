@@ -1,0 +1,183 @@
+/* This is the css file for lab 3 */
+
+h1 {
+    background-color: #FAEBD7;
+    color: aquamarine;
+    margin: 20px 20px 20px 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+h2 {
+    background-color: #F0FFFF;
+    color: rgb(0, 0, 255);
+    margin: auto;
+}
+
+h3 {
+    background-color: #FFF8DC;
+    color: hsl(0, 100%, 50%);
+}
+
+header {
+    background-color: coral;
+    color: #8B008B;
+    position: fixed;
+}
+
+.px {
+    width: 150px;
+}
+
+.in {
+    width: 2in;
+}
+
+.cm {
+    width: 5cm;
+}
+
+.ems li {
+    font-size: 2 em;
+}
+
+html {
+    font-size: 15px;
+}
+
+.ems li {
+    font-size: 1.3em;
+}
+
+.rems li {
+    font-size: 2rem;
+}
+
+p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.5cm;
+    padding-right: 0.5cm;
+    padding-left: 0.5cm;
+    border-style: dotted;
+    border-color: brown;
+    border-width: 0.5 px;
+    border-radius: 2px;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+body {
+    color: darkblue;
+
+}
+
+
+p.ex1 {
+    display: block;
+    width: 50px;
+}
+
+p {
+    height: 30px;
+    width: 80%;
+    background-color: powderblue;
+    position: relative;
+
+}
+
+body {
+    max-width: 120cm;
+    min-width: 50cm;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+a:active {
+    color: gold;
+}
+
+/* @media screen and (min-width: 500px){
+    body{
+        background-color: rgb(237, 155, 200);
+    }
+}
+
+body {
+    background-color: rgb(255, 208, 188);
+} */
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(newfont.ttf);
+}
+
+body {
+    font-family: myFirstFont;
+}
+
+span,
+p.ex {
+    display: inline;
+}
+
+#changeColor {
+    color: red;
+}
+
+* {
+    text-align: left;
+}
+
+a[target] {
+    background-color: yellow;
+}
+
+div.sel1 h4 {
+    background-color: bisque;
+}
+
+div.sel2+h5 {
+    background-color: bisque;
+}
+
+div.sel3>h6 {
+    background-color: bisque;
+}
+
+div.sel4~p {
+    background-color: bisque;
+}
+
+.flexBox {
+    display: flex;
+    background-color: rgb(209, 126, 230);
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.flexBox > div {
+background-color: #f1f1f1;
+margin: 5px;
+padding: 5px;
+font-size: 13px;
+}
+
+.gridBox {
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 30px 30px;
+    grid-auto-flow: row;
+}
+
+@media screen and (min-width: 600px){
+    .changeBackground{
+        background-color: aqua;
+    }
+}
